@@ -1,11 +1,11 @@
-%define git 20240530
+%define git 20241028
 %define gitbranch work/kossebau/kf6
 %define gitbranchd %(echo %{gitbranch} |sed -e "s,/,-,g")
 
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 70 ] && echo -n un; echo -n stable)
 Summary:	A simple HEX editor for KDE
 Name:		plasma6-okteta
-Version:	0.26.15
+Version:	0.26.60
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/KDE
