@@ -236,4 +236,4 @@ applications that use Okteta libraries.
 %find_lang liboktetakasten
 %find_lang okteta --with-html
 %find_lang oktetapart
-cat *.lang >all.lang
+cat *.lang | sort -u >all.lang
