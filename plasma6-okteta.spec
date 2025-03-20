@@ -6,7 +6,7 @@
 Summary:	A simple HEX editor for KDE
 Name:		plasma6-okteta
 Version:	17.12.3
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Graphical desktop/KDE
 Url:		https://www.kde.org
